@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.something.learnapp.BasicsContent"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/introhtml"
+                android:layout_marginTop="-80dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/basicsone"
+                android:layout_marginTop="-210dp"
+                android:layout_marginLeft="10dp"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/basicssomethingone"
+                android:layout_marginTop="-150dp"
+                />
+
+            <Button
+                android:id="@+id/basics_something_one"
+                style="@style/MyButtonStyle"
+                android:layout_marginTop="-20dp"
+                android:text="Try it For Yourself..." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/basicstwo"
+                android:layout_marginTop="-30dp"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/basicssomethingtwo"
+                android:layout_marginTop="-50dp"
+                />
+
+            <Button
+                android:id="@+id/basics_something_two"
+                style="@style/MyButtonStyle"
+                android:layout_marginTop="-15dp"
+                android:text="Try it For Yourself..." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HTML Lists"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HTML List tags are defined with ul tags (unordered/bullet list) or the ol (ordered list/numbered list), followed by li (list item) tags."
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/basicssomethingthree"
+                android:layout_marginTop="-20dp"
+                />
+
+            <Button
+                android:id="@+id/basics_something_three"
+                style="@style/MyButtonStyle"
+                android:layout_marginTop="-15dp"
+                android:text="Try it For Yourself..." />
+
+            <Button
+                android:id="@+id/basics_back_btn"
+                style="@style/BackButtonStyle"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ImagesContent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/contentoneimages"
+                android:layout_marginTop="-70dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/contenttwoimages"
+                android:layout_marginTop="-140dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The width and height attributes always defines the width and height of the image in pixels."
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:textAlignment="inherit"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="-60dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/contentimagesthree"
+                android:layout_marginTop="-30dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/contentimagesfour"
+                android:layout_marginTop="-50dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/contentimagesfive"
+                android:layout_marginTop="-55dp"
+                />
+
+            <Button
+                android:id="@+id/images_back_btn"
+                style="@style/BackButtonStyle"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

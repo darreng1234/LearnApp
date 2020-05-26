@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Backgroundstyle"
+
+    tools:context="com.something.learnapp.HtmlContent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+       <TextView
+           style="@style/BasicsTextView"
+           android:layout_marginLeft="-20dp"
+                      />
+
+        <ImageButton
+            android:id="@+id/basics_btn"
+            style="@style/MyButtonStyleTest"
+            android:layout_height="100dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-100dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            style="@style/Imagesview"
+            android:layout_marginLeft="-20dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/images_btn"
+            style="@style/MyButtonStyleThree"
+            android:layout_height="100dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-100dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            style="@style/ImagesviewOne"
+            android:layout_marginLeft="-20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/tables_btn"
+            style="@style/MyButtonStyleFour"
+            android:layout_height="100dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-100dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            style="@style/ImagesviewTwo"
+            android:layout_marginLeft="-20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/forms_btn"
+            style="@style/MyButtonStyleFive"
+            android:layout_height="100dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-100dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            style="@style/ImagesviewThree"
+            android:layout_marginLeft="-20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/WEB_btn"
+            style="@style/MyButtonStyleSix"
+            android:layout_height="100dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-100dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All information and data were obtained from the approved W3Schools"
+            android:textSize="7dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="50dp"
+             android:layout_marginLeft="75dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

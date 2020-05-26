@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.something.learnapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Forms.FormsContent" />
+        <activity android:name=".Forms.FormExampleOne" />
+        <activity android:name=".Forms.FormExampleTwo" />
+        <activity android:name=".Forms.FormExampleThree" />
+        <activity android:name=".Tables.TablesContent" />
+        <activity android:name=".HtmlContent" />
+        <activity android:name=".BasicsContent" />
+        <activity android:name=".TablesExampleOne" />
+        <activity android:name=".TablesExampleTwo" />
+        <activity android:name=".BasicsExampleOne" />
+        <activity android:name=".Basics_Example_Two" />
+        <activity android:name=".Basics_Example_Three" />
+        <activity android:name=".Tables_Example_Three" />
+        <activity android:name=".Tables_Example_Four" />
+        <activity android:name=".WebContent" />
+        <activity android:name=".ImagesContent" />
+        <activity android:name=".BeginScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.something.learnapp.Tables.TablesContent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tablesexplanation"
+                android:layout_marginTop="-75dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tablescodingtest"
+                android:layout_marginTop="-100dp"
+                />
+
+            <Button
+                android:id="@+id/tables_ex_one"
+                style="@style/MyButtonStyle"
+                android:layout_marginTop="-47dp"
+                android:text="Try it For Yourself..." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/colspan"
+                android:layout_marginTop="-60dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/tables_ex_two"
+                style="@style/MyButtonStyle"
+                android:layout_marginTop="-80dp"
+                android:text="Try it For Yourself..." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/rowspan"
+                android:layout_marginTop="-75dp"/>
+
+            <Button
+                android:id="@+id/tables_ex_three_btn"
+                style="@style/MyButtonStyle"
+                android:layout_marginTop="-80dp"
+                android:text="Try it For Yourself..." />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/caption"
+                android:layout_marginTop="-70dp"/>
+
+            <Button
+                android:id="@+id/tables_ex_four_btn"
+                style="@style/MyButtonStyle"
+                android:layout_marginTop="-70dp"
+                android:text="Try it For Yourself..." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/summary"
+                android:layout_marginTop="-40dp"/>
+
+            <Button
+                android:id="@+id/tables_back_btn"
+                style="@style/BackButtonStyle"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212C34</item>
+        <item name="colorPrimaryDark">#4E8098</item>
+        <item name="colorAccent">#90C2E7</item>
+    </style>
+
+    <style name="Backgroundstyle">
+        <item name="android:background">#96ADB8</item>
+    </style>
+
+    <style name="MyButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/ripple</item>
+        <item name="android:textColor">#D9E4ED</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="MyButtonStyleTest">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">#344648</item>
+        <item name="android:textColor">#D9E4ED</item>
+
+    </style>
+
+
+
+    <style name="BackButtonStyle">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">#344648</item>
+        <item name="android:text">Back</item>
+        <item name="android:textColor">#D9E4ED</item>
+    </style>
+
+    <style name="MyButtonStyleThree">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">#4C7776</item>
+        <item name="android:textColor">#D9E4ED</item>
+
+    </style>
+
+    <style name="MyButtonStyleFour">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">#5CB5B3</item>
+        <item name="android:textColor">#D9E4ED</item>
+
+    </style>
+
+
+    <style name="MyButtonStyleFive">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">#61839C</item>
+        <item name="android:textColor">#D9E4ED</item>
+    </style>
+
+    <style name="MyButtonStyleSix">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">#B2C3CB</item>
+        <item name="android:textColor">#D9E4ED</item>
+    </style>
+
+    <style name="MyButtonStyleOne">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">#40697D</item>
+        <item name="android:textColor">#D9E4ED</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:text">Back</item>
+
+    </style>
+
+    <style name="BasicsTextView">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">#344648</item>
+        <item name="android:text">BASICS</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#E6EDF3</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="Imagesview">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">#4C7776</item>
+        <item name="android:text">IMAGES</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#E6EDF3</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="ImagesviewOne">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">#5CB5B3</item>
+        <item name="android:text">TABLES</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#E6EDF3</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="ImagesviewTwo">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">#61839C</item>
+        <item name="android:text">FORMS</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#E6EDF3</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="ImagesviewThree">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">#B2C3CB</item>
+        <item name="android:text">WEB</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#E6EDF3</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+</resources>

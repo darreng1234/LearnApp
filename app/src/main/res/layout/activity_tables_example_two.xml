@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.something.learnapp.TablesExampleTwo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tablessomethingtwo" />
+
+        <Button
+            android:id="@+id/tables_ex_two_back_btn"
+            style="@style/BackButtonStyle"
+            android:layout_marginLeft="5dp" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
